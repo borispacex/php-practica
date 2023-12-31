@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    {{ $persona->name ?? "{{ __('Show') Persona" }}
+    {{ $persona->name ?? "{{ __('Ver') Persona" }}
 @endsection
 
 @section('content')
@@ -11,10 +11,10 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">{{ __('Show') }} Persona</span>
+                            <span class="card-title">{{ __('Ver') }} Persona</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('personas.index') }}"> {{ __('Back') }}</a>
+                            <a class="btn btn-primary" href="{{ route('personas.index') }}"> {{ __('Volver') }}</a>
                         </div>
                     </div>
 
